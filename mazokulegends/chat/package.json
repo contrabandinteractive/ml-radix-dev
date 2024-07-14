@@ -1,0 +1,18 @@
+{
+  "name": "@rpgjs/chat",
+  "version": "4.3.0",
+  "description": "",
+  "main": "index.ts",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Samuel Ronce",
+  "license": "MIT",
+  "dependencies": {
+    "@rpgjs/client": "^4.3.0",
+    "@rpgjs/server": "^4.3.0"
+  },
+  "gitHead": "4794b65ddf537b2a5c87a1e0dc79623753999ee0"
+}

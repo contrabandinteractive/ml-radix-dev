@@ -1,0 +1,14 @@
+name = 'My Game'
+
+modules = [
+    './chat',
+    './main',
+    './mobile-gui',
+    './default-gui',
+    '@rpgjs/gamepad'
+]
+
+[start]
+    map = 'intro'
+    graphic = 'hero2'
+    hitbox = [16, 16]
