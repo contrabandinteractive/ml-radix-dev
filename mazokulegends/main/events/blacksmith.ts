@@ -9,11 +9,14 @@ import { RpgEvent, EventData, RpgPlayer } from '@rpgjs/server'
 })
 export default class BlacksmithEvent extends RpgEvent {
     onInit() {
-        this.setGraphic('hero3')
+        this.setGraphic('blacksmith')
     }
     async onAction(player: RpgPlayer) {
+        await player.showText('Greetings!', {
+            talkWith: this
+        })
         let choice;
-        choice = await player.showChoices('Greetings! Do you desire to purchase a sword?', [
+        choice = await player.showChoices('Do you desire to purchase a sword?', [
             { text: 'Yes!', value: 1 },
             { text: 'No, thanks.', value: 0 }
         ]);

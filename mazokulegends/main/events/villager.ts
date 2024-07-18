@@ -48,7 +48,10 @@ export default class VillagerEvent extends RpgEvent {
 
     async onAction(player: RpgPlayer) {
         //player.emit('mintSword');
-        await player.showText('I give you 10 gold.', {
+        await player.showText('Oh, hello! You should speak with the Blacksmith over there...', {
+            talkWith: this
+        })
+        await player.showText('His swords are known for their supreme quality.', {
             talkWith: this
         })
     }
