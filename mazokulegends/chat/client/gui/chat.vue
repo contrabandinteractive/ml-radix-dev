@@ -5,7 +5,7 @@
       </ul>
       <input 
         type="text" 
-        placeholder="(Access /w Tab key) Your Message"
+        placeholder="(Access w/ Tab key) Your Message"
         @focus="stopMove" 
         @blur="startMove" 
         v-model="text" 

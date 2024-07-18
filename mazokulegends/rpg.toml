@@ -1,4 +1,4 @@
-name = 'My Game'
+name = 'Mazoku Legends'
 
 modules = [
     './chat',
@@ -12,3 +12,6 @@ modules = [
     map = 'intro'
     graphic = 'hero2'
     hitbox = [16, 16]
+
+[compilerOptions.build]
+    serverUrl = 'https://mazokulegendsserver.onrender.com'
